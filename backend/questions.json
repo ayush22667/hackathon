@@ -1,0 +1,52 @@
+{
+    "q1": {
+      "question": "Do you have any history of heart disease?",
+      "responses": {
+        "yes": "q2",
+        "no": "q3"
+      }
+    },
+    "q2": {
+      "question": "Have you ever had chest pain or discomfort?",
+      "responses": {
+        "yes": "q4",
+        "no": "q5"
+      }
+    },
+    "q3": {
+      "question": "Do you have high blood pressure?",
+      "responses": {
+        "yes": "q6",
+        "no": "q7"
+      }
+    },
+    "q4": {
+      "question": "Do you take any medication for chest pain?",
+      "responses": {
+        "yes": "end",
+        "no": "end"
+      }
+    },
+    "q5": {
+      "question": "Do you experience shortness of breath?",
+      "responses": {
+        "yes": "end",
+        "no": "end"
+      }
+    },
+    "q6": {
+      "question": "Are you currently taking medication for high blood pressure?",
+      "responses": {
+        "yes": "end",
+        "no": "end"
+      }
+    },
+    "q7": {
+      "question": "Have you ever had a stroke?",
+      "responses": {
+        "yes": "end",
+        "no": "end"
+      }
+    }
+  }
+  
